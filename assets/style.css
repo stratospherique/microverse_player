@@ -48,6 +48,7 @@ body {
   height: 22px;
   width: 22px;
   margin-left: 2px;
+  cursor: pointer;
 }
 
 .icons {
@@ -55,4 +56,24 @@ body {
   width: 30px;
   vertical-align: middle;
   margin: 5px;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.main {
+  margin: 20px 20px;
+  border: 1px solid black;
+}
+
+.col-2-3 {
+  border: 1px solid black;
+  position:absolute;
+}
+
+.col-2-1 {
+  border: 1px solid black;
+  position: absolute;
+  right: 0;
 }
