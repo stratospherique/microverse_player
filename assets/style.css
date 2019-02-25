@@ -1,50 +1,55 @@
 .nav {
-	border: 2px solid black;
-	margin: 0;
+  border: 2px solid black;
+  margin: 0;
 }
 
 .nav li {
-    display: inline-block;
-    margin: 0;
-    padding:0;
-    list-style: none;
-    
-
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .logo {
-	height:50px;
-	width:100px;
-	vertical-align: middle;
+  height: 50px;
+  width: 100px;
+  vertical-align: middle;
 }
 
 .nav__searchbar {
-	border: 2px solid black;
-	width: 70%;
-	margin-right: 0;
-	padding-right: 0;
+  width: 70%;
+  margin-right: 0;
+  padding-right: 0;
 }
 
 .nav__searchbar input {
-	width:100%;
+  width: 100%;
+  border: 1px solid black;
+  height: 30px;
 }
 
-.nav__searchbar-button{
-    
-	
-	margin:0;
-    padding: 0;
-    padding-left: 0px;
-    margin-left: 0px;
+.nav__searchbar-button {
+  margin: 0;
+  padding: 0;
+  padding-left: 0px;
+  margin-left: 0px;
 }
 
 .nav__searchbar-button input {
-    background: url("icons8-search-50.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-    vertical-align: middle;
-    border: 1px solid black;
-    height: 24px;
-    width: 22px;
+  background: url('icons8-search-50.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  vertical-align: middle;
+  border: 1px solid black;
+  height: 22px;
+  width: 22px;
+  margin-left: 2px;
+}
+
+.icons {
+  height: 30px;
+  width: 30px;
+  vertical-align: middle;
+  margin: 5px;
 }
