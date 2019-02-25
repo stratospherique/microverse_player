@@ -70,10 +70,54 @@ body {
 .col-2-3 {
   border: 1px solid black;
   position:absolute;
+  width: 50%;
 }
 
 .col-2-1 {
   border: 1px solid black;
   position: absolute;
   right: 0;
+  width: 40%;
+  
 }
+
+.col-2-1 p {
+	text-align: center;
+}
+.related {
+	list-style: none;
+	padding: 0;
+	
+	
+}
+
+.related img {
+	height: 80px;
+	width: 80px;
+}
+
+.related li {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	width: 100%;
+}
+.related a {
+	display: inline-block;
+	
+}
+
+.related h3,
+.related h4 {
+	display: inline-block;
+	margin: 0;
+	position: relative;
+	bottom: 50px;
+	font-weight: 100;
+	color: black;
+	font-size: 15px;
+	margin-left: 10px;
+	
+}
+
+
