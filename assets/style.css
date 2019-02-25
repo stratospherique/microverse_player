@@ -70,7 +70,7 @@ body {
 .col-2-3 {
   border: 1px solid black;
   position:absolute;
-  width: 50%;
+  width: 55%;
 }
 
 .col-2-1 {
@@ -118,6 +118,19 @@ body {
 	font-size: 15px;
 	margin-left: 10px;
 	
+}
+
+.description.side_views li {
+  display: inline-block;
+}
+
+.description.side_views ul {
+  align:right;
+}
+
+
+.description.views {
+ align:left;
 }
 
 
