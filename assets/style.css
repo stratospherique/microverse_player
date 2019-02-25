@@ -18,8 +18,21 @@ body {
   vertical-align: middle;
 }
 
+.menu_bar {
+  margin:0;
+  position: relative;
+  right: 20px;
+}
+
+.menu_bar img{
+  height: 30px;
+  width: 30px;
+  vertical-align: middle;
+  margin: 5px;
+}
+
 .nav__searchbar {
-  width: 70%;
+  width: 50%;
   margin-right: 0;
   padding-right: 0;
 }
@@ -37,16 +50,16 @@ body {
 }
 
 .nav__searchbar-button input {
-  background: url('icons8-search-50.png');
+  height:36px;
+  width:60px;
+  background:#EEEEEE;
+  background-image:url(https://img.icons8.com/ios/50/000000/search.png);
+  background-position:center;
+  background-size:20px;
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
+  border-radius:5%;
+  cursor:pointer;
   vertical-align: middle;
-  border: 1px solid black;
-  height: 22px;
-  width: 22px;
-  margin-left: 2px;
-  cursor: pointer;
   }
 
 .icons {
@@ -54,6 +67,8 @@ body {
   width: 30px;
   vertical-align: middle;
   margin: 5px;
+  position: relative;
+  left: 90px;
 }
 
 .avatar {
@@ -93,7 +108,10 @@ body {
 
 .related img {
 	height: 80px;
-	width: 80px;
+  width: 80px;
+  position: relative;
+  right: 40px;
+  border: 1px solid ghostwhite;
 }
 
 .related li {
