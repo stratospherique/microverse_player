@@ -62,10 +62,12 @@ body {
   vertical-align: middle;
   }
 
-.icons {
+  /* associate the icons class with the li 
+  elements instead of anchors so they appear in the same place */
+.icons { 
   height: 30px;
   width: 30px;
-  vertical-align: middle;
+  vertical-align: middle; 
   margin: 5px;
   position: relative;
   left: 90px;
