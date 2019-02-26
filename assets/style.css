@@ -1,8 +1,8 @@
 body {
-	margin:0;
+  margin: 0;
 }
 .nav {
-   margin: 0;
+  margin: 0;
 }
 
 .nav li {
@@ -19,12 +19,12 @@ body {
 }
 
 .menu_bar {
-  margin:0;
+  margin: 0;
   position: relative;
   right: 20px;
 }
 
-.menu_bar img{
+.menu_bar img {
   height: 30px;
   width: 30px;
   vertical-align: middle;
@@ -50,27 +50,58 @@ body {
 }
 
 .nav__searchbar-button input {
-  height:36px;
-  width:60px;
-  background:#EEEEEE;
-  background-image:url(https://img.icons8.com/ios/50/000000/search.png);
-  background-position:center;
-  background-size:20px;
+  height: 36px;
+  width: 60px;
+  background: #eeeeee;
+  background-image: url(https://img.icons8.com/ios/50/000000/search.png);
+  background-position: center;
+  background-size: 20px;
   background-repeat: no-repeat;
-  border-radius:5%;
-  cursor:pointer;
+  border-radius: 5%;
+  cursor: pointer;
   vertical-align: middle;
-  }
+}
 
-  /* associate the icons class with the li 
+/* associate the icons class with the li 
   elements instead of anchors so they appear in the same place */
-.icons { 
+.icons {
   height: 30px;
   width: 30px;
-  vertical-align: middle; 
+  vertical-align: middle;
   margin: 5px;
+}
+
+/* In order to push the icons away from the search button, we enclosed them in a div container, so that we could move those selected icons*/
+.right-icons {
+  display: inline-block;
+  margin-left: 90px;
+}
+/* Added another class to the menu icon to the left of the youtube logo so that we can specificaly position it */
+.left {
+  left: 0;
+}
+
+/* Resized the img to fit the li. */
+.icons img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+/* Changed color to the fontawesome icons so that they remain black,
+and position them to be centered  */
+.icons a {
+  color: black;
   position: relative;
-  left: 90px;
+  left: 6px;
+  top: 6px;
+}
+
+/*Centered the image*/
+
+.image a {
+  top: 0;
+  left: 0;
 }
 
 .avatar {
@@ -79,15 +110,15 @@ body {
 
 .main {
   margin: 20px 20px;
-  }
+}
 
 .main h4 {
-	margin:10px 25px;;
+  margin: 10px 25px;
 }
 
 .col-2-3 {
   border: 1px solid black;
-  position:absolute;
+  position: absolute;
   width: 55%;
 }
 
@@ -95,21 +126,18 @@ body {
   position: absolute;
   right: 0;
   width: 40%;
-  
 }
 
 .col-2-1 p {
-	text-align: center;
+  text-align: center;
 }
 .related {
-	list-style: none;
-	padding: 0;
-	
-	
+  list-style: none;
+  padding: 0;
 }
 
 .related img {
-	height: 80px;
+  height: 80px;
   width: 80px;
   position: relative;
   right: 40px;
@@ -117,63 +145,59 @@ body {
 }
 
 .related li {
-	display: inline-block;
-	text-align: center;
-	vertical-align: middle;
-	width: 100%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
 }
 .related a {
-	display: inline-block;
-	
+  display: inline-block;
 }
 
 .related h3,
 .related h4 {
-	display: inline-block;
-	margin: 0;
-	position: relative;
-	bottom: 50px;
-	font-weight: 100;
-	color: black;
-	font-size: 15px;
-	margin-left: 10px;
-	
+  display: inline-block;
+  margin: 0;
+  position: relative;
+  bottom: 50px;
+  font-weight: 100;
+  color: black;
+  font-size: 15px;
+  margin-left: 10px;
 }
 
 .description {
-	text-align: right;
+  text-align: right;
 }
 .description.side_views li {
   display: inline-block;
   width: 100px;
-  }
+}
 
 .description.side_views {
-  
   padding: 0;
   display: inline-block;
 }
 
-
 .description.views {
- display: inline-block;
- margin-right: 130px;
+  display: inline-block;
+  margin-right: 130px;
 }
 
 .description.side_views p {
-	display:inline-block;
-	vertical-align: middle;
-	padding-bottom: 20%;
-	margin-left: 8px;
-	color: black;
+  display: inline-block;
+  vertical-align: middle;
+  padding-bottom: 20%;
+  margin-left: 8px;
+  color: black;
 }
 
 .description img {
-	height: 20px;
-	width:20px;
+  height: 20px;
+  width: 20px;
 }
 
-#dots{
-	width: 20px;
-	margin-right: 20px;
+#dots {
+  width: 20px;
+  margin-right: 20px;
 }
