@@ -166,30 +166,39 @@ and position them to be centered  */
   margin-left: 10px;
 }
 
+/*seperated the class selectors and make them more precise */
+
 .description {
-  text-align: right;
+    display: inline-block;
 }
-.description.side_views li {
-  display: inline-block;
+.side_views li {
+  display: inline-block; 
   width: 100px;
 }
 
-.description.side_views {
+.side_views {
   padding: 0;
-  display: inline-block;
+/*  display: inline-block; */
 }
 
-.description.views {
-  display: inline-block;
-  margin-right: 130px;
+.views {
+  
+  margin-right: 90px;
+  margin-left: 30px;
+  vertical-align: middle;
 }
 
-.description.side_views p {
-  display: inline-block;
+.side_views p {
+  display: inline-block; 
   vertical-align: middle;
   padding-bottom: 20%;
   margin-left: 8px;
   color: black;
+  padding: 0;
+}
+
+.side_views img {
+  vertical-align: middle;
 }
 
 .description img {
