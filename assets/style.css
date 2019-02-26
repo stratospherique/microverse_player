@@ -3,6 +3,7 @@ body {
 }
 .nav {
   margin: 0;
+  display: inline;
 }
 
 .nav li {
@@ -74,7 +75,11 @@ body {
 /* In order to push the icons away from the search button, we enclosed them in a div container, so that we could move those selected icons*/
 .right-icons {
   display: inline-block;
-  margin-left: 90px;
+  margin:0;
+}
+
+.right-icons li {
+	display: inline-block;
 }
 /* Added another class to the menu icon to the left of the youtube logo so that we can specificaly position it */
 .left {
